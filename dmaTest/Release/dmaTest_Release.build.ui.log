@@ -1,0 +1,25 @@
+2024-10-31T18:45:13.4495900255-18:45:13 **** Incremental Build of configuration Release for project dmaTest ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000- 
+000-make --no-print-directory main-build
+000-Building file: ../src/dmaTest.c
+000-Invoking: ARM v7 gcc compiler
+000-arm-none-eabi-gcc -Wall -O2 -c -fmessage-length=0 -MT"src/dmaTest.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/a0504467/bits_pilani/sem_1/hscd_lab/vivado/dmaSystem/dmaSystem_wrapper/export/dmaSystem_wrapper/sw/dmaSystem_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/dmaTest.d" -MT"src/dmaTest.o" -o "src/dmaTest.o" "../src/dmaTest.c"
+000-Finished building: ../src/dmaTest.c
+000- 
+000-Building target: dmaTest.elf
+000-Invoking: ARM v7 gcc linker
+000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/a0504467/bits_pilani/sem_1/hscd_lab/vivado/dmaSystem/dmaSystem_wrapper/export/dmaSystem_wrapper/sw/dmaSystem_wrapper/standalone_ps7_cortexa9_0/bsplib/lib -o "dmaTest.elf" ./src/dmaTest.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-Finished building target: dmaTest.elf
+000- 
+000-Invoking: ARM v7 Print Size
+000-arm-none-eabi-size dmaTest.elf  |tee "dmaTest.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-  33876	   2248	  22632	  58756	   e584	dmaTest.elf
+000-Finished building: dmaTest.elf.size
+000- 
+00255-
+18:45:13 Build Finished (took 323ms)
+
