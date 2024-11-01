@@ -1,0 +1,71 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Fri Nov  1 12:47:59 2024
+| Host         : visimg05 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z007sclg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dmaSystem_gamma_correction_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the conversion of dmaSystem_gamma_correction_0_0 (user.org:user:gamma_correction:1.0 (Rev. 2)) to Vivado generation flows.
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'dmaSystem_gamma_correction_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'm_axis_data' width 32 differs from original width 8
+
+-Upgraded port 's_axis_data' width 32 differs from original width 8
+
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 31 06:59:13 2024
+| Host         : visimg05 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z007sclg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dmaSystem_inverter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dmaSystem_inverter_0_0 (user.org:user:inverter:1.0) from (Rev. 4) to (Rev. 6)
+
+
+
+
+
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (lin64) Build 3526262 Mon Apr 18 15:47:01 MDT 2022
+| Date         : Thu Oct 31 06:57:11 2024
+| Host         : visimg05 running 64-bit Ubuntu 22.04.4 LTS
+| Command      : upgrade_ip
+| Device       : xc7z007sclg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'dmaSystem_inverter_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of dmaSystem_inverter_0_0 (user.org:user:inverter:1.0) from (Rev. 2) to (Rev. 4)
+

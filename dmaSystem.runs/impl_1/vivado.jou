@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Nov  1 12:49:35 2024
+# Process ID: 704291
+# Current directory: /home/a0504467/bits_pilani/sem_1/hscd_lab/vivado/dmaSystem/dmaSystem.runs/impl_1
+# Command line: vivado -log dmaSystem_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source dmaSystem_wrapper.tcl -notrace
+# Log file: /home/a0504467/bits_pilani/sem_1/hscd_lab/vivado/dmaSystem/dmaSystem.runs/impl_1/dmaSystem_wrapper.vdi
+# Journal file: /home/a0504467/bits_pilani/sem_1/hscd_lab/vivado/dmaSystem/dmaSystem.runs/impl_1/vivado.jou
+# Running On: visimg05, OS: Linux, CPU Frequency: 3631.463 MHz, CPU Physical cores: 32, Host memory: 67224 MB
+#-----------------------------------------------------------
+source dmaSystem_wrapper.tcl -notrace
